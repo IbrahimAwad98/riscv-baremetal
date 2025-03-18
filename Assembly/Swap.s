@@ -1,0 +1,9 @@
+.text
+main:   li t1, 0x5F     # Set t1 to 0x5F...
+        li t2, 0xA0     # ...and t2 to 0xA0!
+
+        xor t1, t1, t2  # Abra...
+        xor t2, t2, t1  # ...ca...
+        xor t1, t1, t2  # ....dabra!
+
+        nop
